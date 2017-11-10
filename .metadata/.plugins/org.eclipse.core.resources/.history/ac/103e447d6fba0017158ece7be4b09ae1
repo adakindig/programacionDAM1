@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Ejercicio12 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 12.-Hacer un pseudocódigo que imprima los números del 1 al 100.Que calcule la suma de
+		// todos los números pares por un lado, y por otro,la de todos los impares. 
+
+		Scanner teclado = new Scanner (System.in);
+		int contador = 1, totalpar = 0, totalimpar = 2;
+		
+		
+		
+	}
+}

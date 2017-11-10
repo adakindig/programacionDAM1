@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Ejercicio4 {
+
+	public static void main(String[] args) {
+		int sumap = 0;
+		int sumai = 0;
+		for(int i = 1; i <= 100; i++){
+			System.out.println(i);
+			for(int p = 2;p <= 100;p = p + 2){
+				sumap = sumap + p;
+			}
+			for(int im = 1;im <= 100;im = im + 2){
+				sumai = sumai + im;
+			}
+			System.out.println("La suma de los pares del 1 al 100 es "+sumap);
+			System.out.println("La suma de los impares del 1 al 100 es "+sumai);
+			
+		}
+	}
+}

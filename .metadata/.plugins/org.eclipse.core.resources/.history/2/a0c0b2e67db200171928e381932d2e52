@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Ejercicio4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner teclado = new Scanner(System.in);
+		int numero = teclado.nextInt();
+		int cont = 0;
+		for(int i=1;i<numero;i++){
+			if(i%3==0){
+				System.out.println(i);
+				cont++;
+			}
+		}
+		System.out.println(1);
+		System.out.println("Hay "+(cont+1)+" multiplos de 3"); // +1 porque el if de arriba no incluye el numero 1
+	}
+	
+}

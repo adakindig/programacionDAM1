@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class Ejercicio10 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 10.-Introducir un numero por teclado. Que nos diga si es par o impar. 
+		
+		Scanner teclado = new Scanner(System.in);
+		int contador = 0;
+		int numero = teclado.nextInt();
+		if ((numero%2)==0){
+			System.out.println("el número introducido es par");
+		}
+		else {
+			System.out.println("el número introducido es impar");
+		}
+		
+		
+		
+	}
+
+}

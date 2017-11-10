@@ -1,0 +1,24 @@
+
+public class Ejercicio13 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 13.-Imprimir y contar los números que son múltiplos de 2 o de 3 que hay entre 1 y 100.
+
+		
+		int contador = 0, muldos = 0, multres = 0;
+		while (contador <= 100){
+			contador++;
+			
+			if ((contador%2)==0){
+			muldos++;
+			}
+			else{
+			multres++;
+			}
+		}
+		System.out.println(contador);
+		System.out.println(muldos);
+		System.out.println(multres);
+	}
+}

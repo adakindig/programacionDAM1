@@ -1,0 +1,42 @@
+import java.util.Scanner;
+
+public class Ejercicio19 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//19.-Hacer un pseudocódigo que simule el funcionamiento de un reloj digital y que permita
+		//ponerlo en hora.
+		
+		Scanner teclado = new Scanner (System.in);
+		int segundos = 0, minutos = 0, horas = 0, contadorseg = 0, contadormin = 0, contadorhor = 0;
+		System.out.println("Introduce los segundos: ");
+		segundos = teclado.nextInt();
+		while (segundos <0 || segundos >59){
+			System.out.println("Vuelve a introducir los segundos: ");
+		segundos = teclado.nextInt();
+		}
+		System.out.println("Introduce los minutos: ");
+		minutos = teclado.nextInt();
+		while (minutos <0 || minutos >59){
+			System.out.println("Vuelve a introducir los minutos: ");
+		minutos = teclado.nextInt();
+		}
+		System.out.println("Introduce las horas: ");
+		horas = teclado.nextInt();
+		while (horas <0 || horas >23){
+			System.out.println("Vuelve a introducir las horas: ");
+		horas = teclado.nextInt();
+		}
+		while (segundos <= 59){
+			segundos++;
+		
+		}
+		while (minutos <= 59){
+			minutos++;
+		}
+		
+		while (horas <=24){
+			horas++;
+		}
+	}
+}

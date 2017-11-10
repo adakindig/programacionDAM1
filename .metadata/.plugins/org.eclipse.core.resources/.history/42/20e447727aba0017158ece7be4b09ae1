@@ -1,0 +1,30 @@
+import java.util.Scanner;
+public class Ejercicio14 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 14.-Hacer un pseudocódigo que imprima el mayor y el menor de una serie de cinco números 
+		// que vamos introduciendo por teclado.
+		
+		Scanner teclado = new Scanner (System.in);
+		
+		int contador = 1, valorA = teclado.nextInt() , valorMax = 0 , valorMin = 0;
+			while (valorA <= 5){
+				valorA++;
+				
+				if (valorMax > valorA){
+					valorMax = valorA;
+				}
+				
+				if (valorMin < valorA){
+					valorMin = valorA;
+				}
+			contador++;
+				System.out.println(valorMin);
+				System.out.println(valorMax);
+			}
+
+		
+		
+	}
+}

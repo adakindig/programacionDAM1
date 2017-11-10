@@ -1,0 +1,17 @@
+
+public class Ejercicio5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 5.-Hacer un pseudocódigo que imprima los números impares hasta el 100 y que imprima cuantos impares hay.
+
+		int contador, cuenta;
+		contador = cuenta = 0;
+		for (contador = 1; contador <=100; contador++) {
+			System.out.println(contador);
+			contador ++;
+			cuenta ++;
+		}
+		System.out.println(cuenta);
+	}			
+}

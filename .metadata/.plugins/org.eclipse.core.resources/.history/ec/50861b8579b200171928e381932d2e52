@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Ejercicio4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner teclado = new Scanner(System.in);
+		System.out.println("Introducir número entero");
+		int numero = teclado.nextInt();
+		for (int contador=1;contador<numero+1;contador++){
+			System.out.println(contador);
+		}
+		teclado.close();
+	}
+	
+}

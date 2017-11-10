@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class Ejercicio4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner teclado = new Scanner(System.in);
+		System.out.println("Introducir S o N");
+		String frases = "s";
+		while(!frases.equals("S")||!frases.equals("N")){
+			System.out.println("Introducir S o N");
+			frases = teclado.nextLine();
+		}
+		System.out.println(j);
+	}
+	
+}

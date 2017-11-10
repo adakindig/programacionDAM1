@@ -1,0 +1,12 @@
+
+public class Ejercicio4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int suma = 0;
+		for (int contador=0;contador<101;contador++){
+			suma = suma + contador;
+		}
+	}
+
+}

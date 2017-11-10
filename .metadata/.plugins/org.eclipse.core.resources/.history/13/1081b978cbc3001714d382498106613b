@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class Ejercicio24 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 24.-Comprobar si un número mayor o igual que la unidad es primo.
+		
+		
+		Scanner teclado = new Scanner (System.in);
+		
+		int numero = 0, primo = 0;
+		System.out.println("Introduce un número: ");
+		while (numero = teclado.nextInt()){
+			if ((numero%numero)== 0){
+				numero = primo;
+			
+			System.out.println("El numero" +primo+ "es primo");
+		
+			else{
+			System.out.println("El numero" +primo+ "no es primo");
+			}
+		}
+		}
+		
+		
+	}
+}

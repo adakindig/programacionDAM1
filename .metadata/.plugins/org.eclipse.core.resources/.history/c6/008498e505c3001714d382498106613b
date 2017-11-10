@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Ejercicio22 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 22.-Introducir una frase por teclado. Imprimirla cinco veces en filas consecutivas,
+		// pero cada impresión ir desplazada cuatro columnas hacia la derecha.
+		
+		Scanner teclado = new Scanner (System.in);
+		
+		int 
+		
+		
+		
+		
+	}
+}

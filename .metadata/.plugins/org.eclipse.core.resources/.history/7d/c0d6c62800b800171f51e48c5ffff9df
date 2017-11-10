@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Ejercicio6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 6.-Hacer un pseudocódigo que imprima todos los números naturales que hay desde la unidad
+		// hasta un numero que introducimos por teclado.
+
+
+		Scanner teclado = new Scanner (System.in);
+		int numero = teclado.nextInt();
+		int a = 1;
+		while (a < numero){
+			System.out.println(a);
+			a++;
+		}
+
+
+	}
+}
