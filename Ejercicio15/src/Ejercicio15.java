@@ -40,5 +40,6 @@ public class Ejercicio15 {
 		System.out.println("Numeros naturales:"+contadortotal);
 		System.out.println("Total pares:"+contadorpar);
 		System.out.println("Suma de impares:"+sumaimpares);
+		teclado.close();
 	}
 }

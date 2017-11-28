@@ -28,6 +28,6 @@ public class Ejercicio17 {
 		System.out.println(sumamul);
 		System.out.println(contador);
 		
-		
+		teclado.close();
 	}
 }

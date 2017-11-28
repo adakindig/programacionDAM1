@@ -19,11 +19,6 @@ public class Ejercicio7 {
 			}
 		}
 		System.out.println(contador);
-		
-		
-		
-		
-		
-		
+		teclado.close();
 	}
 }

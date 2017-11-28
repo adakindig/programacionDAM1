@@ -42,7 +42,7 @@ public class Ejercicio14 {
 		System.out.println("El mayor es:" + mayor);
 		
 
-		
+		teclado.close();
 		
 	}
 }

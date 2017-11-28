@@ -15,6 +15,6 @@ public class Ejercicio6 {
 			a++;
 		}
 
-
+		teclado.close();
 	}
 }

@@ -1,0 +1,34 @@
+/** Opcion b del ejercicio 35 */
+import java.util.Scanner;
+
+public class Ejercicio35b {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner teclado = new Scanner (System.in);
+		int[] calificaciones;
+		int bucle = 0;
+		calificaciones = new int[10];
+		for(int f=0;f<10;f++) {
+			calificaciones[f] = (int)((Math.random()*10))+1;
+	}
+		for(int f=0;f<10;f++) {
+        }
+		
+		System.out.println("Introduzca un número dependiendo de la asignatura que quiera visualizar: "
+		+"\n"+"1.Lengua"+"\n"+"2.Matematicas"+"\n"+"3.Historia"+"\n"+"4.Biología"+"\n"+"5.Artes plásticas"
+		+"\n"+"6.Ed.física"+"\n"+"7.Filosofía"+"\n"+"8.Orientación"+"\n"+"9.Inglés"+"\n"+"10.Francés");
+		while (bucle == 0){
+		int asignaturas = teclado.nextInt();
+			if (asignaturas > 10 || asignaturas < 0){
+			System.out.println("La asignatura introducida no es válida");
+			}
+			else {
+			System.out.println("La nota de la asignatura es: " +(int)(Math.random()*10+1));
+		
+			}
+		}
+		teclado.close();
+	}
+}

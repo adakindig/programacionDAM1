@@ -17,5 +17,6 @@ public class Ejercicio20 {
 			
 		}
 		System.out.println("Factorial: "+fact);
+		teclado.close();
 	}
 }

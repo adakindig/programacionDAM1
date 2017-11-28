@@ -1,0 +1,17 @@
+/** 30.-Simular una carrera de dos caballos si cada uno tiene igual probabilidad de ganar. */
+public class Ejercicio30 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int caballos = 0;
+		
+		System.out.println("Que dé comienzo la carrera: ");
+		caballos = (int)((Math.random()*2))+1;
+			if (caballos == 1){
+			System.out.println("--------C1"+"\n"+"---C2");
+		}
+			else {
+			System.out.println("---C1"+"\n"+"--------C2");
+		}
+	}
+}

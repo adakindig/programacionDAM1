@@ -11,12 +11,6 @@ public class Ejercicio26 {
 		String frase = teclado.nextLine();
 		System.out.println(frase);
 		
-		
-		
-		
-		
-		
-		
-		
+		teclado.close();
 	}
 }

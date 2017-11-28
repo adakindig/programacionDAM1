@@ -15,8 +15,6 @@ public class Ejercicio22 {
 			System.out.println(texto);
 			texto="    " + texto;
 		}
-			
+		teclado.close();	
 		}
-		
-		
 	}

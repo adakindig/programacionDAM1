@@ -48,6 +48,6 @@ public class Ejercicio19 {
 		System.out.println(horas+":" +minutos+":" +segundos);
 		
 	}
-		
+		teclado.close();
 	}
 }

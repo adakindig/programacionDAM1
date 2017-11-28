@@ -13,7 +13,6 @@ public class Ejercicio9 {
 		else {
 			System.out.println("el número introducido es positivo");
 		}
-		
+		teclado.close();
 	}
-
 }

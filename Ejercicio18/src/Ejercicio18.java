@@ -19,6 +19,6 @@ public class Ejercicio18 {
 		}
 		}
 		System.out.println("Hay "+contador+" cantidad de "+letradet+" en la frase");
-	
+		teclado.close();
 	}
 }

@@ -22,5 +22,6 @@ public class Ejercicio24 {
 		else{
 				System.out.println("El numero " +numero+ " es primo");
 				}
+		teclado.close();
 			}
 	}
