@@ -1,0 +1,25 @@
+/** 31.-Introducir dos números por teclado y mediante un menú, calcule su suma, su resta, 
+ * su multiplicación o su división.*/
+import java.util.Scanner;
+public class Ejercicio31 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner teclado = new Scanner (System.in);
+		int numero1 = 0 , numero2 = 0;
+		System.out.println("Introduzca un primer número: ");
+		numero1 = teclado.nextInt();
+		System.out.println("Introduzca un segundo número: ");
+		numero2 = teclado.nextInt();
+	
+		System.out.println("Escoja una de las siguientes opciones:"+"\n"+"1)Sumar"+"\n"+"2)Restar"
+		+"\n"+"3)Multiplicar"+"\n"+"4)Dividir");
+		int opcion = teclado.nextInt(), resultado;
+			if  (opcion == 1) {
+				resultado = numero1 + numero2;
+				System.out.println("El resultado es: "+resultado);
+			}
+		
+	}
+
+}

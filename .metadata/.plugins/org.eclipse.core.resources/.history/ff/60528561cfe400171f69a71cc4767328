@@ -1,0 +1,57 @@
+
+public class Tragabolas {
+	
+	private String color;
+	private int maxbolas;
+	private int bolascomidas;
+	
+	public String getColor() {
+		return color;
+	}
+	public void setColor(String color) {
+		this.color = color;
+	}
+	public int getMaxbolas() {
+		return maxbolas;
+	}
+	public void setMaxbolas(int maxbolas) {
+		if (maxbolas>0){
+			this.maxbolas = maxbolas;
+		}
+		else{
+			this.maxbolas = 10;
+		}
+	}
+	public int getBolascomidas() {
+		return bolascomidas;
+	}
+	public void setBolascomidas(int bolascomidas) {
+		this.bolascomidas = bolascomidas;
+	}
+	public Tragabolas(String color, int maxbolas) {
+		this.color = color;
+		
+		if (maxbolas>0){
+			this.maxbolas = maxbolas;
+		}
+		else{
+			this.maxbolas = 10;
+		}
+		
+		this.bolascomidas = 0;
+	}
+	public static void menu() {
+		System.out.println("Elija una de las siguientes opciones: ");
+		System.out.println("1. Crear Tragabolas");
+		System.out.println("2. Darle de comer");
+		System.out.println("3. Hacerle dormir");
+		System.out.println("4. Ver estado");
+		System.out.println("5. Salir");
+		System.out.print("Introduzca su opcion: ");
+	}
+	private static void crear(){
+		System.out.print("Color del tragabolas: ");
+		
+		
+	}
+}

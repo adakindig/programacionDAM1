@@ -1,0 +1,17 @@
+/** 32.-Hacer un programa que nos permita introducir un número por teclado y sobre el se realicen
+  las siguientes operaciones: comprobar si es primo, hallar su factorial o imprimir su tabla de 
+  multiplicar. */
+import java.util.Scanner;
+public class Ejercicio32 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner teclado = new Scanner (System.in);
+		
+		
+		
+		
+		
+	}
+
+}

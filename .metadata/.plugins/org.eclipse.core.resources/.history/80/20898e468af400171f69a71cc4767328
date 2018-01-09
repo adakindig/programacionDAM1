@@ -1,0 +1,45 @@
+import java.util.Scanner;
+public class Principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner teclado = new Scanner (System.in);
+		int opcionmenu,salida=0,maxbolas;
+		String color;
+		Tragabolas tragabolas = new Tragabolas();
+
+		while (salida==0){
+			
+			tragabolas.menu(); // Escribimos el menu
+			do{
+				opcionmenu = teclado.nextInt();
+				teclado.nextLine();
+			}while( opcionmenu < 1 && opcionmenu > 5);
+			
+			switch (opcionmenu) {
+			case 1:
+					System.out.print("Introduzca un color: ");
+					color = teclado.nextLine();
+					System.out.print("introduzca número máximo de bolas: ");
+					maxbolas = teclado.nextInt();
+					tragabolas.crearTragabolas(color, maxbolas);
+					System.out.println();
+				break;
+			case 2:
+					tragabolas.darcomer();
+					System.out.println();
+				break;
+			case 3:
+
+				break;
+			case 4:
+
+				break;
+			case 5:
+				salida=1;
+				break;
+			}
+		}
+	}
+}

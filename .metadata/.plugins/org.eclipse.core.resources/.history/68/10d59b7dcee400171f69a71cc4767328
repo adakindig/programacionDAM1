@@ -1,0 +1,13 @@
+
+public class Tragabolas {
+
+	public static void menu() {
+		System.out.println("Elija una de las siguientes opciones: ");
+		System.out.println("1. Crear Tragabolas");
+		System.out.println("2. Darle de comer");
+		System.out.println("3. Hacerle dormir");
+		System.out.println("4. Ver estado");
+		System.out.println("5. Salir");
+		System.out.print("Introduzca su opcion: ");
+	}
+}

@@ -1,0 +1,26 @@
+/**33.-Crear un array unidimensional de 20 elementos con nombres de personas. Visualizar los 
+ elementos de la lista debiendo ir cada uno en una fila distinta.*/
+
+public class Ejercicio33 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int [persona1 , persona2, persona3, persona4, persona5 , persona6 , persona7 , persona8 , persona9 , 
+		     persona10, persona11 , persona 12 , persona13 , persona14 , persona15 , persona16 , persona17 , 
+		     persona18 , persona19, persona20] nombrespersonas;
+		nombrespersonas = new int [20];
+		
+		int[] nombrespersonas;
+		nombrespersonas = new int[20];
+		System.out.print("Estas son los nombres de 20 personas:  "+"\n");
+		for(int f=0;f<20;f++) {
+			nombrespersonas[f] = (int)((Math.random()*10))+1;
+            resultado =resultado + calificaciones[f];
+	}
+		for(int f=0;f<10;f++) {
+            System.out.println(calificaciones[f]);
+        }
+		
+		
+	}
+}

@@ -1,0 +1,52 @@
+
+public class Tragabolas {
+	
+	private String color; //Colores especificados para el tragabolas
+	private int maxbolas; //La cantidad máxima de bolas que puede comer
+	private int bolascomidas=0; //Número de bolas comidas hasta el momento
+	
+	public void crearTragabolas(String color, int maxbolas) { // Crear Tragabolas y especificar su color
+		if (color.equals("rojo") || color.equals("amarillo") || color.equals("verde") || color.equals("azul")){
+			this.color = color;
+		}
+		else{
+			System.out.println("El color especificado no existe"); //Identificador de error en color especificado
+			this.color="";
+		}
+		if (maxbolas>0){ //Especificamos que su máximo son 10 bolas
+			this.maxbolas = maxbolas;
+		}
+		else{
+			this.maxbolas = 10;
+		}
+	}
+	
+	public String getColor() { // getters de los valores ya asignados previamente
+		return color;
+	}
+	public int getMaxbolas() {
+		return maxbolas;
+	}
+	public int getBolascomidas() {
+		return bolascomidas;
+	}
+	
+	public void menu() { // Creación del menú para interactuar con el tragabolas
+		System.out.println("Elija una de las siguientes opciones: ");
+		System.out.println("1. Crear Tragabolas");
+		System.out.println("2. Darle de comer");
+		System.out.println("3. Hacerle dormir");
+		System.out.println("4. Ver estado");
+		System.out.println("5. Salir");
+		System.out.print("Introduzca su opcion: ");
+	}
+	public void darcomer(){ // Sumador de bolas comidas hasta el límite especificado, 10
+		if ( bolascomidas < maxbolas ){
+			bolascomidas++;
+			System.out.println("He comido una bola");
+		}
+		else {
+			System.out.println("Estoy lleno");
+		}
+	}
+}

@@ -1,0 +1,22 @@
+/**Leer una frase de máximo 80 caracteres y escribirla progresivamente */
+import java.util.Scanner;
+public class string01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner teclado = new Scanner(System.in);
+		System.out.print("Introduzca una frase: ");
+		String frase =teclado.nextLine();
+		while (frase.length() > 80) {
+			System.out.print("Introduzca una frase que contenga menos de 80 carácteres: ");
+			frase =teclado.nextLine();
+		}
+		
+		char principio = frase.charAt(0);
+		
+		
+		
+		
+		teclado.close();
+	}
+}

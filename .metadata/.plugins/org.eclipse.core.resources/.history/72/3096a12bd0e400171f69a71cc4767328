@@ -1,0 +1,64 @@
+
+public class Tragabolas {
+	
+	private String color;
+	private int maxbolas;
+	private int bolascomidas=0;
+	
+	public void crearTragabolas(String color, int maxbolas) { // Crear Tragabolas
+		if (color.equals("rojo") || color.equals("amarillo") || color.equals("verde") || color.equals("azul")){
+			this.color = color;
+		}
+		else{
+			System.out.println("El color especificado no existe");
+		}
+		if (maxbolas>0){
+			this.maxbolas = maxbolas;
+		}
+		else{
+			this.maxbolas = 10;
+		}
+	}
+	
+	public void setMaxbolas(int maxbolas) { // Crear bolas maximas
+		if (maxbolas>0){
+			this.maxbolas = maxbolas;
+		}
+		else{
+			this.maxbolas = 10;
+		}
+	}
+	public void setColor(String color) { // Definir color
+		if (color.equals("rojo") || color.equals("amarillo") || color.equals("verde") || color.equals("azul")){
+			this.color = color;
+		}
+		else{
+			System.out.println("El color especificado no existe");
+		}
+	}
+	
+	public String getColor() {
+		return color;
+	}
+	public int getMaxbolas() {
+		return maxbolas;
+	}
+	public int getBolascomidas() {
+		return bolascomidas;
+	}
+	
+	public static void menu() {
+		System.out.println("Elija una de las siguientes opciones: ");
+		System.out.println("1. Crear Tragabolas");
+		System.out.println("2. Darle de comer");
+		System.out.println("3. Hacerle dormir");
+		System.out.println("4. Ver estado");
+		System.out.println("5. Salir");
+		System.out.print("Introduzca su opcion: ");
+	}
+	private static void crear(){
+		System.out.print("Color del tragabolas: ");
+		
+		
+	}
+}

@@ -1,0 +1,32 @@
+/** 35.-Usando el segundo ejemplo, hacer un programa que busque una nota en el vector. */
+import java.util.Scanner;
+public class Ejercicio35 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner teclado = new Scanner (System.in);
+		int[] calificaciones;
+		int resultado = 0;
+		calificaciones = new int[10];
+		for(int f=0;f<10;f++) {
+			calificaciones[f] = (int)((Math.random()*10))+1;
+            resultado =resultado + calificaciones[f];
+	}
+		for(int f=0;f<10;f++) {
+        }
+		System.out.println("Introduzca la asignatura de la cual desees conocer la nota: ");
+		int asignaturas = teclado.nextInt();
+		if (asignaturas > 10 || asignaturas < 0){
+			System.out.println("La asignatura introducida no es válida");
+		}
+		else {
+			System.out.println("La nota de la asignatura es: " +((Math.random()*10)));
+		}
+		
+		
+		
+	
+	teclado.close();
+	}
+}
